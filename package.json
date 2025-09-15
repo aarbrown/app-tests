@@ -1,0 +1,14 @@
+{
+  "name": "app-tests",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.40.0",
+    "dotenv": "^17.2.2"
+  },
+  "scripts": {
+    "test": "playwright test"
+  },
+  "author": "",
+  "license": "ISC"
+}

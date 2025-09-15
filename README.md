@@ -1,0 +1,1 @@
+Playwright tests to keep my supabase site alive
