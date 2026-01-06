@@ -18,7 +18,7 @@ test('login to app', async ({ page }) => {
   try {
     // Navigate to login page
     console.log('📍 Navigating to login page...');
-    await page.goto(loginUrl, { waitUntil: 'networkidle' });
+    await page.goto(loginUrl, { waitUntil: 'domcontentloaded'});
     console.log('✅ Login page loaded successfully');
     
     // Take screenshot of login page
